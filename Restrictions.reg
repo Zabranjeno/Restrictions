@@ -1,0 +1,26 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\DeviceInstall\Restrictions]
+"DenyDeviceIDs"=dword:00000000
+"DenyDeviceIDsRetroactive"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\DeviceInstall\Restrictions\denydeviceids]
+"1"="SCSI\\CdRom"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Srp\Gp]
+"RuleCount"=dword:00000000
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\safer]
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\SRPV2]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\safer]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\safer\CodeIdentifiers]
+"AuthenticodeEnabled"=dword:00000300
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System]
+"DisableRegistryTools"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\System]
+"DisableRegistryTools"=dword:00000000
